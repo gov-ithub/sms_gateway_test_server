@@ -2,13 +2,19 @@
     "name": "govithub/smstestgateway",
     "type": "project",
     "license": "Apache License Version 2.0",
+    "minimum-stability": "dev",
     "authors": [
-        {
-            "name": "Claudiu Ceia",
-            "email": "claudiu.ceia@ithub.gov.ro"
-        }
+      {
+        "name": "Claudiu Ceia",
+        "email": "claudiu.ceia@ithub.gov.ro"
+      }
     ],
     "require": {
-        "fredemmott/hhvm-autoload": "^1.0"
+      "fredemmott/hhvm-autoload": "^1.0",
+      "fredemmott/hack-router-codegen" : "^1.0.0rc2",
+      "zendframework/zend-diactoros": "^1.1"
+    },
+    "require-dev": {
+      "hack-psr/psr7-http-message-hhi": "^0.2.0"
     }
 }
