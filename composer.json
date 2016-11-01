@@ -1,0 +1,14 @@
+{
+    "name": "govithub/smstestgateway",
+    "type": "project",
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Claudiu Ceia",
+            "email": "claudiu.ceia@ithub.gov.ro"
+        }
+    ],
+    "require": {
+        "fredemmott/hhvm-autoload": "^1.0"
+    }
+}
